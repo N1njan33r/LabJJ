@@ -1,0 +1,12 @@
+Lab JJ
+Create a web page (html) include the following tags (h1, div, p, button, span)
+
+Include button event handler (onclick) console log
+
+Include 1 stylesheet (css) with 10 or more css rules
+
+Include 1 javascript (js) with 3 functions
+
+
+
+bonus: manipulate DOM (Document Object Model) with button click

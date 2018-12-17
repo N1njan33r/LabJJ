@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="center, border" id="mainTitle">
+        <h1>N1njan33r Dice Roller</h1>
+    </div>
+    <div class="center, border">
+        <div id="diceInput">
+            <p>Select a die: 
+                <select id="selectDie">
+                    <option value="4">d4</option>
+                    <option value="6">d6</option>
+                    <option value="8">d8</option>
+                    <option value="10">d10</option>
+                    <option value="12">d12</option>
+                    <option value="20">d20</option>
+                </select>
+                <button onclick="roll()">Roll</button>
+            </p>
+        </div>
+        <div id="resultOutput">
+            <p>
+                You rolled a <span id="result">number</span>!
+                <span id="crit"></span>
+            </p>
+        </div>
+    </div>
+    <div class="center, border">
+        <p>Strength: 
+            <input type="number" min="0" max="20">
+        </p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

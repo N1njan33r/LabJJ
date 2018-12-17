@@ -1,0 +1,63 @@
+body {
+    background: #303030;
+}
+
+select {
+    background: #333333;
+    color: dimgray;
+    border-color: red;
+    font-size: 28pt;
+}
+
+button {
+    background: #333333;
+    color: dimgray;
+    border-color: red;
+    font-size: 28pt;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    color: red;
+    margin-left: 100px;
+}
+
+p {
+    color: dimgray;
+    border-color: red;
+    font-size: 28pt;
+}
+
+input {
+    width: 150px;
+    font-size: 28pt;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.border {
+    border: 3px solid red;
+}
+
+#diceInput {
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#result {
+    color: red;
+}
+
+#resultOutput {
+    margin-left: 100px;
+}
